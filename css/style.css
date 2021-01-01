@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'fontwow1';
+    src: url('../assets/font/Frozito-eZ99g.ttf')format('truetype');
+    src: url('../assets/font/Oasis-BW0JV.ttf')format('truetype');
+}
+@font-face {
+    font-family: 'fontwow2';
+    src: url('../assets/font/Oasis-BW0JV.ttf')format('truetype');
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent,#222929,#000000);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent,#5c5f5f,#9da19c);
+}
+
+
+.slider h3,.slider h5,.clients h3 {
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.753);
+    color:grey;
+    
+}
+
+.ukuranimg img{
+    width: 100%;
+
+}
+
+.gambarcd1 img {
+    width: 100%;
+}
+
+.logo1 {
+    font-family: 'fontwow2';
+}
+
+h3 {
+    font-family: 'fontwow1';
+}
+
+.parallax-container {
+    height: 20%;
+}
+
+.parallax img {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    opacity: 0.5 !important;
+}
+
+.clients img {
+    max-width: 150px;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+    -webkit-filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+}
+
+.text2323 {
+    text-align: left;
+}
+
+.text22 {
+    font-family: 'fontwow1';
+}
+
+.text33 {
+    font-family: 'fontwow1';
+}
+
+section,footer {
+    padding: 20px 0;
+}
+
